@@ -1,4 +1,6 @@
 XCode5gcovPatch
 ===============
 
-A patch for unit and UIAutomation coverage
+A monkey patch for unit and UIAutomation coverage. The patch forces gcov to flush its results to .gcda files.
+
+
