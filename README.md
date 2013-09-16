@@ -18,11 +18,11 @@ The following code will force gcov to flush its metrics when the iOS app enters 
 
 ### UIApplication+GCovFlush.h
 
-    #import <XCTest/XCTest.h>
-
-    @interface XCTest (GCovFlush)
-
+    #import <UIKit/UIKit.h>
+    
+    @interface UIApplication (GCovFlush)
     @end
+
     
 
 ### UIApplication+GCovFlush.m
