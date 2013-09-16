@@ -5,7 +5,9 @@ Provides patches for XCTests, or SenTests and a patch for UIAutomation coverage.
 to flush its results to .gcda files. 
 
 See the following XCode Project for an example of using the patch(es). 
-https://github.com/leroymattingly/XCode5gcovPatch/tree/master/TestOutCoverage
+
+<a href="https://github.com/leroymattingly/XCode5gcovPatch/tree/master/TestOutCoverage">TestOutCoverage</a>
+
 
 
 Force Code Coverage for UIAutomation Tests:
