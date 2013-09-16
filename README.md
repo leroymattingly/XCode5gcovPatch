@@ -1,13 +1,18 @@
 XCode5gcovPatch
 ===============
 
-Provides patches for XCTests, or SenTests and a patch for UIAutomation coverage. The patches forces gcov to flush its results to .gcda files.
+Provides patches for XCTests, or SenTests and a patch for UIAutomation coverage. The patches force gcov 
+to flush its results to .gcda files. 
+
+See the following XCode Project for an example of using the patch(es). 
+https://github.com/leroymattingly/XCode5gcovPatch/tree/master/TestOutCoverage
 
 
 Force Code Coverage for UIAutomation Tests:
 -------------------------------------------
 
-The following code will force gcov to flush its metrics when the iOS app enters the background (command shit H in the simulator).
+The following code will force gcov to flush its metrics when the iOS app enters the background 
+(command shit H in the simulator).
 
 ### UIApplication+GCovFlush.h
 
