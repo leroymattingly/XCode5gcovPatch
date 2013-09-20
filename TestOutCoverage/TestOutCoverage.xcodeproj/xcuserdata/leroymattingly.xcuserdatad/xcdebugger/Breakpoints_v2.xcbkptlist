@@ -130,32 +130,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestOutCoverageTests/XCTest+GCovFlush.m"
-            timestampString = "400678912.983361"
+            filePath = "TestOutCoverage/UIApplication+GCovFlush.m"
+            timestampString = "401366478.756467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-_swizzledTearDown"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "+forceGcovFlush"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestOutCoverage/UIApplication+GCovFlush.m"
-            timestampString = "400853262.375551"
+            timestampString = "401366478.756467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "+forceGcovFlush"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "+load"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

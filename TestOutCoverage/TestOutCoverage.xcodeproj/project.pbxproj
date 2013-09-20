@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */; };
 		6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */; };
 		6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */; };
 		6CFBC70617BE461000802FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70517BE461000802FE6 /* Foundation.framework */; };
@@ -22,7 +23,6 @@
 		6CFBC72617BE461000802FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70517BE461000802FE6 /* Foundation.framework */; };
 		6CFBC72717BE461000802FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70917BE461000802FE6 /* UIKit.framework */; };
 		6CFBC72F17BE461000802FE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CFBC72D17BE461000802FE6 /* InfoPlist.strings */; };
-		6CFBC73117BE461000802FE6 /* TestOutCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC73017BE461000802FE6 /* TestOutCoverageTests.m */; };
 		6CFBC74517BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74617BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74717BE473C00802FE6 /* AccountTests.m */; };
@@ -39,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DepositMoney.js; sourceTree = "<group>"; };
 		6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+GCovFlush.h"; sourceTree = "<group>"; };
 		6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+GCovFlush.m"; sourceTree = "<group>"; };
-		6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GCovFlush.h"; sourceTree = "<group>"; };
-		6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GCovFlush.m"; sourceTree = "<group>"; };
+		6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+GCovFlush.h"; path = "../TestOutCoverage/UIApplication+GCovFlush.h"; sourceTree = "<group>"; };
+		6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+GCovFlush.m"; path = "../TestOutCoverage/UIApplication+GCovFlush.m"; sourceTree = "<group>"; };
 		6CFBC70217BE461000802FE6 /* TestOutCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOutCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFBC70517BE461000802FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CFBC70717BE461000802FE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		6CFBC72417BE461000802FE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6CFBC72C17BE461000802FE6 /* TestOutCoverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestOutCoverageTests-Info.plist"; sourceTree = "<group>"; };
 		6CFBC72E17BE461000802FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6CFBC73017BE461000802FE6 /* TestOutCoverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOutCoverageTests.m; sourceTree = "<group>"; };
 		6CFBC74317BE472200802FE6 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		6CFBC74417BE472200802FE6 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		6CFBC74717BE473C00802FE6 /* AccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTests.m; sourceTree = "<group>"; };
@@ -91,6 +91,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2DC4E617EC5B3C0083DCAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBC74317BE472200802FE6 /* Account.h */,
+				6CFBC74417BE472200802FE6 /* Account.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		6C2DC4E717EC5BC10083DCAC /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBC74717BE473C00802FE6 /* AccountTests.m */,
+			);
+			name = "Model Tests";
+			sourceTree = "<group>";
+		};
+		6C2DC4E817EC5BD70083DCAC /* View and Controller Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */,
+			);
+			name = "View and Controller Tests";
+			sourceTree = "<group>";
+		};
+		6C2DC4EB17EC62560083DCAC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBC71A17BE461000802FE6 /* ViewController.h */,
+				6CFBC71B17BE461000802FE6 /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		6C2DC4EC17EC626B0083DCAC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBC71717BE461000802FE6 /* Main.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		6CFBC6F917BE461000802FE6 = {
 			isa = PBXGroup;
 			children = (
@@ -124,17 +166,13 @@
 		6CFBC70B17BE461000802FE6 /* TestOutCoverage */ = {
 			isa = PBXGroup;
 			children = (
-				6CFBC74317BE472200802FE6 /* Account.h */,
-				6CFBC74417BE472200802FE6 /* Account.m */,
+				6C2DC4E617EC5B3C0083DCAC /* model */,
+				6C2DC4EC17EC626B0083DCAC /* views */,
+				6C2DC4EB17EC62560083DCAC /* controllers */,
 				6CFBC71417BE461000802FE6 /* AppDelegate.h */,
 				6CFBC71517BE461000802FE6 /* AppDelegate.m */,
-				6CFBC71717BE461000802FE6 /* Main.storyboard */,
-				6CFBC71A17BE461000802FE6 /* ViewController.h */,
-				6CFBC71B17BE461000802FE6 /* ViewController.m */,
 				6CFBC71D17BE461000802FE6 /* Images.xcassets */,
 				6CFBC70C17BE461000802FE6 /* Supporting Files */,
-				6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */,
-				6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */,
 			);
 			path = TestOutCoverage;
 			sourceTree = "<group>";
@@ -153,11 +191,13 @@
 		6CFBC72A17BE461000802FE6 /* TestOutCoverageTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CFBC73017BE461000802FE6 /* TestOutCoverageTests.m */,
-				6CFBC74717BE473C00802FE6 /* AccountTests.m */,
+				6C2DC4E817EC5BD70083DCAC /* View and Controller Tests */,
+				6C2DC4E717EC5BC10083DCAC /* Model Tests */,
 				6CFBC72B17BE461000802FE6 /* Supporting Files */,
 				6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */,
 				6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */,
+				6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */,
+				6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */,
 			);
 			path = TestOutCoverageTests;
 			sourceTree = "<group>";
@@ -280,9 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFBC73117BE461000802FE6 /* TestOutCoverageTests.m in Sources */,
 				6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */,
 				6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */,
+				6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */,
 				6CFBC74617BE472200802FE6 /* Account.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,8 @@
 //
 //  UIApplication+GCovFlush.m
-//  TestOutCoverage
+//
+//  Use this patch to force gcov to write .gcda (results) files when you put the app in
+//  the background - cmd+shift+H on the simulator. 
 //
 //  Created by LeRoy Mattingly on 9/12/13.
 //  Copyright (c) 2013 OpenSource. All rights reserved.
