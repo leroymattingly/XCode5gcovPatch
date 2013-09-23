@@ -11,6 +11,7 @@
 		6C2DC4EE17EC66AD0083DCAC /* TestOutCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4ED17EC66AD0083DCAC /* TestOutCoverageTests.m */; };
 		6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */; };
 		6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */; };
+		6C7A171417F05BA40065F7BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A171317F05BA40065F7BA /* README.md */; };
 		6CFBC70617BE461000802FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70517BE461000802FE6 /* Foundation.framework */; };
 		6CFBC70817BE461000802FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70717BE461000802FE6 /* CoreGraphics.framework */; };
 		6CFBC70A17BE461000802FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70917BE461000802FE6 /* UIKit.framework */; };
@@ -46,6 +47,7 @@
 		6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+GCovFlush.m"; sourceTree = "<group>"; };
 		6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+GCovFlush.h"; path = "../TestOutCoverage/UIApplication+GCovFlush.h"; sourceTree = "<group>"; };
 		6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+GCovFlush.m"; path = "../TestOutCoverage/UIApplication+GCovFlush.m"; sourceTree = "<group>"; };
+		6C7A171317F05BA40065F7BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6CFBC70217BE461000802FE6 /* TestOutCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOutCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFBC70517BE461000802FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CFBC70717BE461000802FE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,7 @@
 		6CFBC6F917BE461000802FE6 = {
 			isa = PBXGroup;
 			children = (
+				6C7A171317F05BA40065F7BA /* README.md */,
 				6CFBC70B17BE461000802FE6 /* TestOutCoverage */,
 				6CFBC72A17BE461000802FE6 /* TestOutCoverageTests */,
 				6CFBC70417BE461000802FE6 /* Frameworks */,
@@ -292,6 +295,7 @@
 			files = (
 				6CFBC71E17BE461000802FE6 /* Images.xcassets in Resources */,
 				6CFBC71017BE461000802FE6 /* InfoPlist.strings in Resources */,
+				6C7A171417F05BA40065F7BA /* README.md in Resources */,
 				6CFBC71917BE461000802FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
