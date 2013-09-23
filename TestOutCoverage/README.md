@@ -8,8 +8,11 @@ Example Workflow:
 --------
 
 1.) Build the sample app TestOutCoverage in XCode 5.
+
 2.) Code the model objects and write XCTests for the model. (TDD works well for model classes)
+
 3.) Run unit tests (individually or all).
+
 4.) Launch CoverStory and open
 
 
