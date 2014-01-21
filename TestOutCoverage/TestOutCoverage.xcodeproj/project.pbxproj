@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */; };
 		6C2DC4EE17EC66AD0083DCAC /* TestOutCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4ED17EC66AD0083DCAC /* TestOutCoverageTests.m */; };
-		6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */; };
-		6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */; };
 		6C7A171417F05BA40065F7BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A171317F05BA40065F7BA /* README.md */; };
 		6CFBC70617BE461000802FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70517BE461000802FE6 /* Foundation.framework */; };
 		6CFBC70817BE461000802FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70717BE461000802FE6 /* CoreGraphics.framework */; };
@@ -28,6 +26,7 @@
 		6CFBC74517BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74617BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74717BE473C00802FE6 /* AccountTests.m */; };
+		7EA41CD3188ED8450030DDFE /* libXCode5gcovPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA41CD0188ED8260030DDFE /* libXCode5gcovPatch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +37,32 @@
 			remoteGlobalIDString = 6CFBC70117BE461000802FE6;
 			remoteInfo = TestOutCoverage;
 		};
+		7EA41CCF188ED8260030DDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EF97D5C188ED749008CCF46;
+			remoteInfo = XCode5gcovPatch;
+		};
+		7EA41CD1188ED8260030DDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EF97D6C188ED74A008CCF46;
+			remoteInfo = XCode5gcovPatchTests;
+		};
+		7EA41CD4188ED84A0030DDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF97D5B188ED749008CCF46;
+			remoteInfo = XCode5gcovPatch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DepositMoney.js; sourceTree = "<group>"; };
 		6C2DC4ED17EC66AD0083DCAC /* TestOutCoverageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOutCoverageTests.m; sourceTree = "<group>"; };
-		6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+GCovFlush.h"; sourceTree = "<group>"; };
-		6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+GCovFlush.m"; sourceTree = "<group>"; };
-		6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+GCovFlush.h"; path = "../TestOutCoverage/UIApplication+GCovFlush.h"; sourceTree = "<group>"; };
-		6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+GCovFlush.m"; path = "../TestOutCoverage/UIApplication+GCovFlush.m"; sourceTree = "<group>"; };
 		6C7A171317F05BA40065F7BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6CFBC70217BE461000802FE6 /* TestOutCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOutCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFBC70517BE461000802FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +85,7 @@
 		6CFBC74317BE472200802FE6 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		6CFBC74417BE472200802FE6 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		6CFBC74717BE473C00802FE6 /* AccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTests.m; sourceTree = "<group>"; };
+		7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCode5gcovPatch.xcodeproj; path = ../XCode5gcovPatch/XCode5gcovPatch.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA41CD3188ED8450030DDFE /* libXCode5gcovPatch.a in Frameworks */,
 				6CFBC72517BE461000802FE6 /* XCTest.framework in Frameworks */,
 				6CFBC72717BE461000802FE6 /* UIKit.framework in Frameworks */,
 				6CFBC72617BE461000802FE6 /* Foundation.framework in Frameworks */,
@@ -140,6 +158,7 @@
 		6CFBC6F917BE461000802FE6 = {
 			isa = PBXGroup;
 			children = (
+				7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */,
 				6C7A171317F05BA40065F7BA /* README.md */,
 				6CFBC70B17BE461000802FE6 /* TestOutCoverage */,
 				6CFBC72A17BE461000802FE6 /* TestOutCoverageTests */,
@@ -200,10 +219,6 @@
 				6C2DC4E817EC5BD70083DCAC /* View and Controller Tests */,
 				6C2DC4E717EC5BC10083DCAC /* Model Tests */,
 				6CFBC72B17BE461000802FE6 /* Supporting Files */,
-				6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */,
-				6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */,
-				6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */,
-				6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */,
 			);
 			path = TestOutCoverageTests;
 			sourceTree = "<group>";
@@ -215,6 +230,15 @@
 				6CFBC72D17BE461000802FE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA41CCB188ED8260030DDFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA41CD0188ED8260030DDFE /* libXCode5gcovPatch.a */,
+				7EA41CD2188ED8260030DDFE /* XCode5gcovPatchTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7EA41CD5188ED84A0030DDFE /* PBXTargetDependency */,
 				6CFBC72917BE461000802FE6 /* PBXTargetDependency */,
 			);
 			name = TestOutCoverageTests;
@@ -280,6 +305,12 @@
 			mainGroup = 6CFBC6F917BE461000802FE6;
 			productRefGroup = 6CFBC70317BE461000802FE6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7EA41CCB188ED8260030DDFE /* Products */;
+					ProjectRef = 7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6CFBC70117BE461000802FE6 /* TestOutCoverage */,
@@ -287,6 +318,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7EA41CD0188ED8260030DDFE /* libXCode5gcovPatch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXCode5gcovPatch.a;
+			remoteRef = 7EA41CCF188ED8260030DDFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EA41CD2188ED8260030DDFE /* XCode5gcovPatchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCode5gcovPatchTests.xctest;
+			remoteRef = 7EA41CD1188ED8260030DDFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6CFBC70017BE461000802FE6 /* Resources */ = {
@@ -316,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFBC71C17BE461000802FE6 /* ViewController.m in Sources */,
-				6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */,
 				6CFBC74517BE472200802FE6 /* Account.m in Sources */,
 				6CFBC71617BE461000802FE6 /* AppDelegate.m in Sources */,
 				6CFBC71217BE461000802FE6 /* main.m in Sources */,
@@ -328,7 +375,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */,
-				6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */,
 				6C2DC4EE17EC66AD0083DCAC /* TestOutCoverageTests.m in Sources */,
 				6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */,
 				6CFBC74617BE472200802FE6 /* Account.m in Sources */,
@@ -342,6 +388,11 @@
 			isa = PBXTargetDependency;
 			target = 6CFBC70117BE461000802FE6 /* TestOutCoverage */;
 			targetProxy = 6CFBC72817BE461000802FE6 /* PBXContainerItemProxy */;
+		};
+		7EA41CD5188ED84A0030DDFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCode5gcovPatch;
+			targetProxy = 7EA41CD4188ED84A0030DDFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
