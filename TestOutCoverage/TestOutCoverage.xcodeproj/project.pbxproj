@@ -27,6 +27,7 @@
 		6CFBC74617BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74717BE473C00802FE6 /* AccountTests.m */; };
 		7EA41CD3188ED8450030DDFE /* libXCode5gcovPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA41CD0188ED8260030DDFE /* libXCode5gcovPatch.a */; };
+		7EF95B6E188EDB4F0039D93D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		6CFBC74417BE472200802FE6 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		6CFBC74717BE473C00802FE6 /* AccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTests.m; sourceTree = "<group>"; };
 		7EA41CCA188ED8260030DDFE /* XCode5gcovPatch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCode5gcovPatch.xcodeproj; path = ../XCode5gcovPatch/XCode5gcovPatch.xcodeproj; sourceTree = "<group>"; };
+		7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF95B6E188EDB4F0039D93D /* SenTestingKit.framework in Frameworks */,
 				7EA41CD3188ED8450030DDFE /* libXCode5gcovPatch.a in Frameworks */,
 				6CFBC72517BE461000802FE6 /* XCTest.framework in Frameworks */,
 				6CFBC72717BE461000802FE6 /* UIKit.framework in Frameworks */,
@@ -179,6 +182,7 @@
 		6CFBC70417BE461000802FE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */,
 				6CFBC70517BE461000802FE6 /* Foundation.framework */,
 				6CFBC70717BE461000802FE6 /* CoreGraphics.framework */,
 				6CFBC70917BE461000802FE6 /* UIKit.framework */,
@@ -459,6 +463,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -491,6 +496,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -538,6 +544,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TestOutCoverageTests/TestOutCoverageTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -556,6 +563,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOutCoverage/TestOutCoverage-Prefix.pch";
 				INFOPLIST_FILE = "TestOutCoverageTests/TestOutCoverageTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
