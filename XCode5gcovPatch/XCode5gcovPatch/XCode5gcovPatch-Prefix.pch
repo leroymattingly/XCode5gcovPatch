@@ -5,5 +5,8 @@
 //
 
 #ifdef __OBJC__
+    #import "GcovExtern.h"
+
+    #import <objc/runtime.h>
     #import <Foundation/Foundation.h>
 #endif
