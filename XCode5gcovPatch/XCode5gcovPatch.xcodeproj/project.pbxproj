@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E905A95188FAA6600A566F9 /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D88188ED768008CCF46 /* UIApplication+GCovFlush.m */; };
+		7E905A9B188FAA6600A566F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D5F188ED749008CCF46 /* Foundation.framework */; };
+		7E905AA6188FAA8600A566F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D8E188ED78E008CCF46 /* SenTestingKit.framework */; };
+		7E905AAD188FAA9F00A566F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D5F188ED749008CCF46 /* Foundation.framework */; };
+		7E905AAE188FAABA00A566F9 /* SenTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D86188ED768008CCF46 /* SenTest+GCovFlush.m */; };
 		7EF97D60188ED749008CCF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D5F188ED749008CCF46 /* Foundation.framework */; };
 		7EF97D6E188ED74A008CCF46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D6D188ED74A008CCF46 /* XCTest.framework */; };
 		7EF97D6F188ED74A008CCF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D5F188ED749008CCF46 /* Foundation.framework */; };
@@ -14,10 +19,7 @@
 		7EF97D74188ED74A008CCF46 /* libXCode5gcovPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D5C188ED749008CCF46 /* libXCode5gcovPatch.a */; };
 		7EF97D7A188ED74A008CCF46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EF97D78188ED74A008CCF46 /* InfoPlist.strings */; };
 		7EF97D7C188ED74A008CCF46 /* XCode5gcovPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D7B188ED74A008CCF46 /* XCode5gcovPatchTests.m */; };
-		7EF97D8B188ED768008CCF46 /* SenTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D86188ED768008CCF46 /* SenTest+GCovFlush.m */; };
-		7EF97D8C188ED768008CCF46 /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D88188ED768008CCF46 /* UIApplication+GCovFlush.m */; };
 		7EF97D8D188ED768008CCF46 /* XCTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97D8A188ED768008CCF46 /* XCTest+GCovFlush.m */; };
-		7EF97D8F188ED78E008CCF46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D8E188ED78E008CCF46 /* SenTestingKit.framework */; };
 		7EF97D90188ED791008CCF46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF97D6D188ED74A008CCF46 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7E905A9C188FAA6600A566F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E905AA8188FAA8600A566F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EF97D5A188ED749008CCF46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E905AA0188FAA6600A566F9 /* libXCode5gcovPatch-Automation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCode5gcovPatch-Automation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E905AAC188FAA8600A566F9 /* libXCode5gcovPatch-SenTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCode5gcovPatch-SenTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF97D5C188ED749008CCF46 /* libXCode5gcovPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXCode5gcovPatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF97D5F188ED749008CCF46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EF97D63188ED749008CCF46 /* XCode5gcovPatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCode5gcovPatch-Prefix.pch"; sourceTree = "<group>"; };
@@ -63,12 +85,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E905A98188FAA6600A566F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E905A9B188FAA6600A566F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E905AA4188FAA8600A566F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E905AAD188FAA9F00A566F9 /* Foundation.framework in Frameworks */,
+				7E905AA6188FAA8600A566F9 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EF97D59188ED749008CCF46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7EF97D90188ED791008CCF46 /* XCTest.framework in Frameworks */,
-				7EF97D8F188ED78E008CCF46 /* SenTestingKit.framework in Frameworks */,
 				7EF97D60188ED749008CCF46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +140,8 @@
 			children = (
 				7EF97D5C188ED749008CCF46 /* libXCode5gcovPatch.a */,
 				7EF97D6C188ED74A008CCF46 /* XCode5gcovPatchTests.xctest */,
+				7E905AA0188FAA6600A566F9 /* libXCode5gcovPatch-Automation.a */,
+				7E905AAC188FAA8600A566F9 /* libXCode5gcovPatch-SenTest.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +200,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7E905A93188FAA6600A566F9 /* XCode5gcovPatch-Automation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E905A9D188FAA6600A566F9 /* Build configuration list for PBXNativeTarget "XCode5gcovPatch-Automation" */;
+			buildPhases = (
+				7E905A94188FAA6600A566F9 /* Sources */,
+				7E905A98188FAA6600A566F9 /* Frameworks */,
+				7E905A9C188FAA6600A566F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCode5gcovPatch-Automation";
+			productName = XCode5gcovPatch;
+			productReference = 7E905AA0188FAA6600A566F9 /* libXCode5gcovPatch-Automation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E905AA1188FAA8600A566F9 /* XCode5gcovPatch-SenTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E905AA9188FAA8600A566F9 /* Build configuration list for PBXNativeTarget "XCode5gcovPatch-SenTest" */;
+			buildPhases = (
+				7E905AA2188FAA8600A566F9 /* Sources */,
+				7E905AA4188FAA8600A566F9 /* Frameworks */,
+				7E905AA8188FAA8600A566F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCode5gcovPatch-SenTest";
+			productName = XCode5gcovPatch;
+			productReference = 7E905AAC188FAA8600A566F9 /* libXCode5gcovPatch-SenTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		7EF97D5B188ED749008CCF46 /* XCode5gcovPatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EF97D7F188ED74A008CCF46 /* Build configuration list for PBXNativeTarget "XCode5gcovPatch" */;
@@ -218,6 +292,8 @@
 			targets = (
 				7EF97D5B188ED749008CCF46 /* XCode5gcovPatch */,
 				7EF97D6B188ED74A008CCF46 /* XCode5gcovPatchTests */,
+				7E905A93188FAA6600A566F9 /* XCode5gcovPatch-Automation */,
+				7E905AA1188FAA8600A566F9 /* XCode5gcovPatch-SenTest */,
 			);
 		};
 /* End PBXProject section */
@@ -234,13 +310,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E905A94188FAA6600A566F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E905A95188FAA6600A566F9 /* UIApplication+GCovFlush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E905AA2188FAA8600A566F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E905AAE188FAABA00A566F9 /* SenTest+GCovFlush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EF97D58188ED749008CCF46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF97D8C188ED768008CCF46 /* UIApplication+GCovFlush.m in Sources */,
 				7EF97D8D188ED768008CCF46 /* XCTest+GCovFlush.m in Sources */,
-				7EF97D8B188ED768008CCF46 /* SenTest+GCovFlush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +364,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7E905A9E188FAA6600A566F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XCode5gcovPatch.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode5gcovPatch/XCode5gcovPatch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "XCode5gcovPatch-Automation";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E905A9F188FAA6600A566F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XCode5gcovPatch.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode5gcovPatch/XCode5gcovPatch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "XCode5gcovPatch-Automation";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E905AAA188FAA8600A566F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XCode5gcovPatch.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode5gcovPatch/XCode5gcovPatch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "XCode5gcovPatch-SenTest";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E905AAB188FAA8600A566F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XCode5gcovPatch.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode5gcovPatch/XCode5gcovPatch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "XCode5gcovPatch-SenTest";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		7EF97D7D188ED74A008CCF46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +571,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E905A9D188FAA6600A566F9 /* Build configuration list for PBXNativeTarget "XCode5gcovPatch-Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E905A9E188FAA6600A566F9 /* Debug */,
+				7E905A9F188FAA6600A566F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E905AA9188FAA8600A566F9 /* Build configuration list for PBXNativeTarget "XCode5gcovPatch-SenTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E905AAA188FAA8600A566F9 /* Debug */,
+				7E905AAB188FAA8600A566F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7EF97D57188ED749008CCF46 /* Build configuration list for PBXProject "XCode5gcovPatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -433,6 +605,7 @@
 				7EF97D81188ED74A008CCF46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EF97D82188ED74A008CCF46 /* Build configuration list for PBXNativeTarget "XCode5gcovPatchTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +614,7 @@
 				7EF97D84188ED74A008CCF46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
