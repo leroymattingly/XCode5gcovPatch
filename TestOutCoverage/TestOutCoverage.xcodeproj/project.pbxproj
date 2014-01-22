@@ -28,7 +28,6 @@
 		6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74717BE473C00802FE6 /* AccountTests.m */; };
 		7ECDFCCA188FB18600A6B2A8 /* libXCode5gcovPatch-Automation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E49A6F0188FB08C00D67489 /* libXCode5gcovPatch-Automation.a */; };
 		7ECDFCCD188FB19F00A6B2A8 /* libXCode5gcovPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E49A6EC188FB08C00D67489 /* libXCode5gcovPatch.a */; };
-		7EF95B6E188EDB4F0039D93D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECDFCCD188FB19F00A6B2A8 /* libXCode5gcovPatch.a in Frameworks */,
-				7EF95B6E188EDB4F0039D93D /* SenTestingKit.framework in Frameworks */,
 				6CFBC72517BE461000802FE6 /* XCTest.framework in Frameworks */,
 				6CFBC72717BE461000802FE6 /* UIKit.framework in Frameworks */,
 				6CFBC72617BE461000802FE6 /* Foundation.framework in Frameworks */,
