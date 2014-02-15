@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 OpenSource. All rights reserved.
 //
 
+#import <SenTestingKit/SenTestingKit.h>
 
 
 @interface SenTest (GCovFlush)

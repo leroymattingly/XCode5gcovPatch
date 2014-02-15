@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */; };
 		6C2DC4EE17EC66AD0083DCAC /* TestOutCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DC4ED17EC66AD0083DCAC /* TestOutCoverageTests.m */; };
-		6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */; };
-		6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */; };
 		6C7A171417F05BA40065F7BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A171317F05BA40065F7BA /* README.md */; };
 		6CFBC70617BE461000802FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70517BE461000802FE6 /* Foundation.framework */; };
 		6CFBC70817BE461000802FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBC70717BE461000802FE6 /* CoreGraphics.framework */; };
@@ -28,6 +26,8 @@
 		6CFBC74517BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74617BE472200802FE6 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74417BE472200802FE6 /* Account.m */; };
 		6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBC74717BE473C00802FE6 /* AccountTests.m */; };
+		7ECDFCCA188FB18600A6B2A8 /* libXCode5gcovPatch-Automation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E49A6F0188FB08C00D67489 /* libXCode5gcovPatch-Automation.a */; };
+		7ECDFCCD188FB19F00A6B2A8 /* libXCode5gcovPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E49A6EC188FB08C00D67489 /* libXCode5gcovPatch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +38,53 @@
 			remoteGlobalIDString = 6CFBC70117BE461000802FE6;
 			remoteInfo = TestOutCoverage;
 		};
+		7E49A6EB188FB08C00D67489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EF97D5C188ED749008CCF46;
+			remoteInfo = XCode5gcovPatch;
+		};
+		7E49A6ED188FB08C00D67489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EF97D6C188ED74A008CCF46;
+			remoteInfo = XCode5gcovPatchTests;
+		};
+		7E49A6EF188FB08C00D67489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E905AA0188FAA6600A566F9;
+			remoteInfo = "XCode5gcovPatch-Automation";
+		};
+		7E49A6F1188FB08C00D67489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E905AAC188FAA8600A566F9;
+			remoteInfo = "XCode5gcovPatch-SenTest";
+		};
+		7ECDFCC8188FB17E00A6B2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E905A93188FAA6600A566F9;
+			remoteInfo = "XCode5gcovPatch-Automation";
+		};
+		7ECDFCCB188FB19A00A6B2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF97D5B188ED749008CCF46;
+			remoteInfo = XCode5gcovPatch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6C2DC4E917EC5C0C0083DCAC /* DepositMoney.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DepositMoney.js; sourceTree = "<group>"; };
 		6C2DC4ED17EC66AD0083DCAC /* TestOutCoverageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOutCoverageTests.m; sourceTree = "<group>"; };
-		6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+GCovFlush.h"; sourceTree = "<group>"; };
-		6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTest+GCovFlush.m"; sourceTree = "<group>"; };
-		6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+GCovFlush.h"; path = "../TestOutCoverage/UIApplication+GCovFlush.h"; sourceTree = "<group>"; };
-		6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+GCovFlush.m"; path = "../TestOutCoverage/UIApplication+GCovFlush.m"; sourceTree = "<group>"; };
 		6C7A171317F05BA40065F7BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		6CFBC70217BE461000802FE6 /* TestOutCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOutCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFBC70517BE461000802FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +107,8 @@
 		6CFBC74317BE472200802FE6 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		6CFBC74417BE472200802FE6 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		6CFBC74717BE473C00802FE6 /* AccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTests.m; sourceTree = "<group>"; };
+		7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCode5gcovPatch.xcodeproj; path = ../XCode5gcovPatch/XCode5gcovPatch.xcodeproj; sourceTree = "<group>"; };
+		7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECDFCCA188FB18600A6B2A8 /* libXCode5gcovPatch-Automation.a in Frameworks */,
 				6CFBC70817BE461000802FE6 /* CoreGraphics.framework in Frameworks */,
 				6CFBC70A17BE461000802FE6 /* UIKit.framework in Frameworks */,
 				6CFBC70617BE461000802FE6 /* Foundation.framework in Frameworks */,
@@ -86,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECDFCCD188FB19F00A6B2A8 /* libXCode5gcovPatch.a in Frameworks */,
 				6CFBC72517BE461000802FE6 /* XCTest.framework in Frameworks */,
 				6CFBC72717BE461000802FE6 /* UIKit.framework in Frameworks */,
 				6CFBC72617BE461000802FE6 /* Foundation.framework in Frameworks */,
@@ -140,6 +182,7 @@
 		6CFBC6F917BE461000802FE6 = {
 			isa = PBXGroup;
 			children = (
+				7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */,
 				6C7A171317F05BA40065F7BA /* README.md */,
 				6CFBC70B17BE461000802FE6 /* TestOutCoverage */,
 				6CFBC72A17BE461000802FE6 /* TestOutCoverageTests */,
@@ -160,6 +203,7 @@
 		6CFBC70417BE461000802FE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EF95B6D188EDB4F0039D93D /* SenTestingKit.framework */,
 				6CFBC70517BE461000802FE6 /* Foundation.framework */,
 				6CFBC70717BE461000802FE6 /* CoreGraphics.framework */,
 				6CFBC70917BE461000802FE6 /* UIKit.framework */,
@@ -200,10 +244,6 @@
 				6C2DC4E817EC5BD70083DCAC /* View and Controller Tests */,
 				6C2DC4E717EC5BC10083DCAC /* Model Tests */,
 				6CFBC72B17BE461000802FE6 /* Supporting Files */,
-				6C3D0E8217E1DED300CA214B /* XCTest+GCovFlush.h */,
-				6C3D0E8317E1DED300CA214B /* XCTest+GCovFlush.m */,
-				6C3D0E8517E1E1D600CA214B /* UIApplication+GCovFlush.h */,
-				6C3D0E8617E1E1D600CA214B /* UIApplication+GCovFlush.m */,
 			);
 			path = TestOutCoverageTests;
 			sourceTree = "<group>";
@@ -215,6 +255,17 @@
 				6CFBC72D17BE461000802FE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E49A6E5188FB08C00D67489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E49A6EC188FB08C00D67489 /* libXCode5gcovPatch.a */,
+				7E49A6EE188FB08C00D67489 /* XCode5gcovPatchTests.xctest */,
+				7E49A6F0188FB08C00D67489 /* libXCode5gcovPatch-Automation.a */,
+				7E49A6F2188FB08C00D67489 /* libXCode5gcovPatch-SenTest.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +282,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7ECDFCC9188FB17E00A6B2A8 /* PBXTargetDependency */,
 			);
 			name = TestOutCoverage;
 			productName = TestOutCoverage;
@@ -248,6 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7ECDFCCC188FB19A00A6B2A8 /* PBXTargetDependency */,
 				6CFBC72917BE461000802FE6 /* PBXTargetDependency */,
 			);
 			name = TestOutCoverageTests;
@@ -280,6 +333,12 @@
 			mainGroup = 6CFBC6F917BE461000802FE6;
 			productRefGroup = 6CFBC70317BE461000802FE6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E49A6E5188FB08C00D67489 /* Products */;
+					ProjectRef = 7E49A6E4188FB08C00D67489 /* XCode5gcovPatch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6CFBC70117BE461000802FE6 /* TestOutCoverage */,
@@ -287,6 +346,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7E49A6EC188FB08C00D67489 /* libXCode5gcovPatch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXCode5gcovPatch.a;
+			remoteRef = 7E49A6EB188FB08C00D67489 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E49A6EE188FB08C00D67489 /* XCode5gcovPatchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCode5gcovPatchTests.xctest;
+			remoteRef = 7E49A6ED188FB08C00D67489 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E49A6F0188FB08C00D67489 /* libXCode5gcovPatch-Automation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libXCode5gcovPatch-Automation.a";
+			remoteRef = 7E49A6EF188FB08C00D67489 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E49A6F2188FB08C00D67489 /* libXCode5gcovPatch-SenTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libXCode5gcovPatch-SenTest.a";
+			remoteRef = 7E49A6F1188FB08C00D67489 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6CFBC70017BE461000802FE6 /* Resources */ = {
@@ -316,7 +406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFBC71C17BE461000802FE6 /* ViewController.m in Sources */,
-				6C3D0E8717E1E1D600CA214B /* UIApplication+GCovFlush.m in Sources */,
 				6CFBC74517BE472200802FE6 /* Account.m in Sources */,
 				6CFBC71617BE461000802FE6 /* AppDelegate.m in Sources */,
 				6CFBC71217BE461000802FE6 /* main.m in Sources */,
@@ -328,7 +417,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFBC74817BE473C00802FE6 /* AccountTests.m in Sources */,
-				6C3D0E8417E1DED300CA214B /* XCTest+GCovFlush.m in Sources */,
 				6C2DC4EE17EC66AD0083DCAC /* TestOutCoverageTests.m in Sources */,
 				6C2DC4EA17EC5C0C0083DCAC /* DepositMoney.js in Sources */,
 				6CFBC74617BE472200802FE6 /* Account.m in Sources */,
@@ -342,6 +430,16 @@
 			isa = PBXTargetDependency;
 			target = 6CFBC70117BE461000802FE6 /* TestOutCoverage */;
 			targetProxy = 6CFBC72817BE461000802FE6 /* PBXContainerItemProxy */;
+		};
+		7ECDFCC9188FB17E00A6B2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XCode5gcovPatch-Automation";
+			targetProxy = 7ECDFCC8188FB17E00A6B2A8 /* PBXContainerItemProxy */;
+		};
+		7ECDFCCC188FB19A00A6B2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCode5gcovPatch;
+			targetProxy = 7ECDFCCB188FB19A00A6B2A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,6 +506,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -440,6 +539,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -487,6 +587,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TestOutCoverageTests/TestOutCoverageTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -505,6 +606,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOutCoverage/TestOutCoverage-Prefix.pch";
 				INFOPLIST_FILE = "TestOutCoverageTests/TestOutCoverageTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
