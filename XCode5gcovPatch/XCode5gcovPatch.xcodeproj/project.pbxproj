@@ -66,6 +66,7 @@
 /* Begin PBXFileReference section */
 		7E905AA0188FAA6600A566F9 /* libXCode5gcovPatch-Automation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCode5gcovPatch-Automation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E905AAC188FAA8600A566F9 /* libXCode5gcovPatch-SenTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCode5gcovPatch-SenTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC1925C188FF04400FA6E36 /* GcovExtern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GcovExtern.h; sourceTree = "<group>"; };
 		7EF97D5C188ED749008CCF46 /* libXCode5gcovPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXCode5gcovPatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF97D5F188ED749008CCF46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EF97D63188ED749008CCF46 /* XCode5gcovPatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCode5gcovPatch-Prefix.pch"; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		7EF97D61188ED749008CCF46 /* XCode5gcovPatch */ = {
 			isa = PBXGroup;
 			children = (
+				7EC1925C188FF04400FA6E36 /* GcovExtern.h */,
 				7EF97D85188ED768008CCF46 /* SenTest+GCovFlush.h */,
 				7EF97D86188ED768008CCF46 /* SenTest+GCovFlush.m */,
 				7EF97D87188ED768008CCF46 /* UIApplication+GCovFlush.h */,

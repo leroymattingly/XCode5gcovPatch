@@ -7,9 +7,6 @@
 //
 
 #import "XCTest+GCovFlush.h"
-#import <objc/runtime.h>
-
-extern void __gcov_flush();
 
 @implementation XCTest (GCovFlush)
 
