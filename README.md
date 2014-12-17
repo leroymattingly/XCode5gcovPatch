@@ -31,7 +31,7 @@ Force Code Coverage for UIAutomation Tests:
 -------------------------------------------
 
 The following code will force gcov to flush its metrics when the iOS app enters the background 
-(command shit H in the simulator).
+(command shift H in the simulator).
 
 ### UIApplication+GCovFlush.h
 
